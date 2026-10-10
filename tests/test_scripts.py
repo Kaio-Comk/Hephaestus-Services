@@ -1,6 +1,7 @@
 import json
 import shutil
 import subprocess
+import sys
 from pathlib import Path
 
 import pytest
@@ -37,6 +38,7 @@ def test_dry_run_nao_exige_admin_nem_nssm():
     assert "would install myapp-bot" in r.stdout and "would install myapp-api" in r.stdout
 
 
+@pytest.mark.skipif(sys.platform != "win32", reason="elevation check is Windows-only")
 def test_manage_sem_admin_falha_alto_em_vez_de_calado():
     script = str(ROOT / "scripts" / "manage-services.ps1").replace("'", "''")
     r = _ps("$id=[Security.Principal.WindowsIdentity]::GetCurrent();"
