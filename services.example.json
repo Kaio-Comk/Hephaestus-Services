@@ -1,0 +1,9 @@
+{
+  "prefix": "myapp",
+  "python": "C:\\myapp\\.venv\\Scripts\\python.exe",
+  "logsDir": "C:\\myapp\\logs",
+  "services": [
+    { "name": "bot", "script": "C:\\myapp\\svc\\svc_bot.py", "description": "MyApp - Telegram bot (polling)" },
+    { "name": "api", "script": "C:\\myapp\\svc\\svc_api.py", "workingDir": "C:\\myapp\\svc", "description": "MyApp - HTTP API" }
+  ]
+}
