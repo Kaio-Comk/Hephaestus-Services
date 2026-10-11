@@ -1,12 +1,12 @@
 <div align="center">
 
-# ⚙️ nssm-service-kit
+# ⚙️ Hephaestus-Services
 ### Production-Hardened Windows Services Automation with NSSM & PowerShell
 
 [![PowerShell: 5.1 | 7+](https://img.shields.io/badge/PowerShell-5.1%20%7C%207%2B-blue.svg?logo=powershell&logoColor=white)](https://microsoft.com/powershell)
 [![Platform: Windows](https://img.shields.io/badge/Platform-Windows%2010%20%7C%2011%20%7C%20Server-0078D6.svg?logo=windows&logoColor=white)](https://microsoft.com/windows)
 [![Engine: NSSM](https://img.shields.io/badge/Engine-NSSM%20(Non--Sucking%20Service%20Manager)-orange.svg)](https://nssm.cc)
-[![Logs: Online Rotation](https://img.shields.io/badge/Logs-Online%20Rotation%20%40%2010MB-green.svg)](https://github.com/Kaio-Comk/nssm-service-kit)
+[![Logs: Online Rotation](https://img.shields.io/badge/Logs-Online%20Rotation%20%40%2010MB-green.svg)](https://github.com/Kaio-Comk/Hephaestus-Services)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 **Declarative JSON-driven Windows service orchestration for Python, Node.js, and background daemons.**  
@@ -117,5 +117,5 @@ Manage all services matching a prefix at once:
 Distributed under the **MIT License**. See `LICENSE` for details.
 
 <div align="center">
-  <sub>Built with ❤️ by Kaio Lima. If nssm-service-kit simplified your Windows DevOps, please give it a ⭐!</sub>
+  <sub>Built with ❤️ by Kaio Lima. If Hephaestus-Services simplified your Windows DevOps, please give it a ⭐!</sub>
 </div>
